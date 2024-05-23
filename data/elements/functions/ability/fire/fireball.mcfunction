@@ -13,5 +13,5 @@ particle dragon_breath ~ ~.5 ~ 0.2 0.2 0.2 5 20
 #playsound entity.ender_dragon.growl player @a ~ ~ ~ 0.40 1.10
 playsound entity.blaze.shoot player @a ~ ~ ~ 1 0.9
 
-
+scoreboard players remove @s e_Mana 2
 
