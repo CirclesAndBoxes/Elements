@@ -1,5 +1,5 @@
 # Only runs if has enough mana and timer
-execute if entity @s[tag=e.fire] positioned ~ ~1 ~ run function elements:ability/fire/fireball
+execute if entity @s[tag=e.fire] run function elements:ability/fire/fire_crit_start
 scoreboard players remove @s e_Mana 5
 clear @s nether_star 5
 scoreboard players set @s Ability2Timer 100
