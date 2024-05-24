@@ -1,2 +1,2 @@
 Convert all possible combinations of element and ability into advancements. 
-    The benefit of this is that it will run less command blocks and be faster.
+    The benefit of this is that it will run less commands and be faster.

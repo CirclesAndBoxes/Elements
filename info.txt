@@ -1,3 +1,4 @@
 Notes:
 * All tags have an e. in front of them to represent "elements"
 * Set functions are called at/as the player
+* AbilityTimers are counting down

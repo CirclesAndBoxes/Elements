@@ -17,7 +17,7 @@
       }
     },
     "rewards": {
-      "function": "elements:ability/start_ability1"
+      "function": "elements:ability/start_ability2"
     }
   }
   
