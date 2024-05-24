@@ -5,9 +5,9 @@ execute as @e[type=fireball,tag=PowerIncreaser] at @s run data modify entity @s 
 
 
 ## Timers
-execute as @a[scores={Ability1Timer=1..}] run function elements:timers/ability1
-scoreboard players remove @a[scores={Ability2Timer=1..}] Ability2Timer 1
-scoreboard players remove @a[scores={Ability3Timer=1..}] Ability3Timer 1
+execute as @a[scores={Ability1Timer=1..}] run function elements:ability_timers/ability1t
+execute as @a[scores={Ability2Timer=1..}] run function elements:ability_timers/ability2t
+execute as @a[scores={Ability3Timer=1..}] run function elements:ability_timers/ability3t
 
 
 execute as @a[scores={e_ManaTotal=..0}] run function elements:add_mana

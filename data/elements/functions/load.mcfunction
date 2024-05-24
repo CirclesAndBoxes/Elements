@@ -11,7 +11,7 @@ scoreboard objectives add e_FireCrit dummy
 
 scoreboard objectives add constants dummy
 scoreboard players set #10 constants 10
-scoreboard players set #20 constants 10
+scoreboard players set #20 constants 20
 
 scoreboard objectives add scratch dummy
 
