@@ -1,9 +1,9 @@
 tag @s add temp
-execute anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Marker:1b,NoAI:1b}
-execute anchored eyes rotated ~7 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b}
-execute anchored eyes rotated ~-7 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b}
-execute anchored eyes rotated ~15 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b}
-execute anchored eyes rotated ~-15 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b}
+execute anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Marker:1b,NoAI:1b,Invisible:1b,Invulnerable:1b}
+execute anchored eyes rotated ~7 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b,Invulnerable:1b}
+execute anchored eyes rotated ~-7 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b,Invulnerable:1b}
+execute anchored eyes rotated ~15 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b,Invulnerable:1b}
+execute anchored eyes rotated ~-15 ~ anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["e.tsunami", "init"],NoGravity:1b,Invisible:1b,Marker:1b,NoAI:1b,Invulnerable:1b}
 
 execute as @e[type=armor_stand,tag=init] at @s anchored feet facing entity @p[tag=temp] eyes facing ^ ^ ^-1 run tp @s ~ ~ ~ ~ ~
 scoreboard players add @e[type=armor_stand,tag=init] e_LifeLeft 60

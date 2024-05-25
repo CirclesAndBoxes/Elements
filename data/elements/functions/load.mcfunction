@@ -14,6 +14,8 @@ scoreboard objectives add Ability3Cost dummy
 scoreboard objectives add e_GunRange dummy
 
 scoreboard objectives add e_FireCrit dummy
+scoreboard objectives add e_Ignition dummy
+scoreboard objectives add e_Fortress dummy
 
 scoreboard objectives add constants dummy
 scoreboard players set #10 constants 10

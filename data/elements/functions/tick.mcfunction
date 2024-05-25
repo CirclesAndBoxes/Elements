@@ -16,3 +16,6 @@ scoreboard players remove @a[scores={e_ManaTotal=1..,e_Mana=..19}] e_ManaTotal 1
 ## Damages
 execute if entity @e[scores={e_FireCrit=1..}] run function elements:ability/fire/fire_crit_damage
 execute as @e[type=armor_stand,tag=e.tsunami] at @s rotated as @s run function elements:ability/water/tsunami_tick
+execute as @a[scores={e_Fortress=1..}] run function elements:ability/earth/stone_fortress_tick
+execute as @a[scores={e_Ignition=1..}] run function elements:ability/fire/ignition_tick
+execute as @e[type=armor_stand,tag=e.seismic] at @s rotated as @s run function elements:ability/earth/seismic_slam_tick

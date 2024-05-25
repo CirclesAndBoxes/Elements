@@ -4,6 +4,7 @@ scoreboard players add #distance e_GunRange 1
 
 execute positioned ~-.2 ~-.2 ~-.2 as @e[dx=0,dy=0,dz=0,tag=!Defended] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0,dy=0,dz=0] run scoreboard players set @s e_FireCrit 40
 
+execute positioned ~-.2 ~-.2 ~-.2 as @e[dx=0,dy=0,dz=0,tag=!Defended] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0,dy=0,dz=0] run particle explosion ~ ~ ~ .3 .3 .3 .1 10 normal
 
 execute positioned ~-.2 ~-.2 ~-.2 as @e[dx=0,tag=!Defended] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0,dy=0,dz=0] run scoreboard players reset #distance e_GunRange
 

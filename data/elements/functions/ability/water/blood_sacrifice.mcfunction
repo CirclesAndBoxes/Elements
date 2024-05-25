@@ -1,9 +1,9 @@
-
-effect give @a instant_health 1 1 false
-effect give @s instant_damage 1 1 false
+tag @s add e.healing
+effect give @a[tag=!e.healing] instant_health 1 1 false
+tag @s remove e.healing
 
 effect give @a regeneration 5 2 true
-effect give @s weakness 5 0 false
+effect give @s weakness 5 0
 effect give @s slowness 3 0
 effect give @s darkness 2 0
 
