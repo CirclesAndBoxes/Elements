@@ -9,11 +9,15 @@ give @s fire_charge[custom_name='{"bold":true,"italic":false,"text":"Ability 1"}
 give @s red_dye[custom_name='{"bold":true,"italic":false,"text":"Ability 2"}',custom_data={e_slot:2},food={nutrition:2,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000}] 1
 give @s blaze_powder[custom_name='{"bold":true,"italic":false,"text":"Ability 3"}',custom_data={e_slot:3},food={nutrition:3,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000}] 1
 item replace entity @s hotbar.8 with nether_star[custom_data={e_mana:1}] 20
-tag @s add e.fire
+tag @s add e.water
 
 scoreboard players set @s Ability1Timer 0
 scoreboard players set @s Ability2Timer 0
 scoreboard players set @s Ability3Timer 0
+
+scoreboard players set @s Ability1Cost 2
+scoreboard players set @s Ability2Cost 5
+scoreboard players set @s Ability3Cost 10
 
 scoreboard players set @s e_Mana 20
 scoreboard players set @s e_ManaTotal 20

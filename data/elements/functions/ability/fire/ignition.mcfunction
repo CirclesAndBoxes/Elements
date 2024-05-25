@@ -1,6 +1,9 @@
 # Has a knockback effect, then gives strength and speed
-effect give @s strength 5 0 
-effect give @s speed 5 1
+effect give @s strength 8 0 
+effect give @s speed 8 1
+effect give @s regeneration 8 0
+
+
 playsound entity.ender_dragon.growl player @a ~ ~ ~ 2
 particle flame ~ ~0.5 ~ 0.1 0.1 0.1 1.5 30
 particle smoke ~ ~0.5 ~ 0.3 0.3 0.3 0.05 30

@@ -1,0 +1,2 @@
+For water I'm doing something a little different: 
+    start_ability1 will already sort based on element and whether it has enough, so I'll set up a single spell that also takes mana to reduce number of files

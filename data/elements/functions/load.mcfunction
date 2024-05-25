@@ -5,6 +5,12 @@ scoreboard objectives add Ability3Timer dummy
 scoreboard objectives add e_Mana dummy
 #Actually counts time before mana runs out
 scoreboard objectives add e_ManaTotal dummy
+
+# Counts the cost of each ability, in mana
+scoreboard objectives add Ability1Cost dummy
+scoreboard objectives add Ability2Cost dummy
+scoreboard objectives add Ability3Cost dummy
+
 scoreboard objectives add e_GunRange dummy
 
 scoreboard objectives add e_FireCrit dummy

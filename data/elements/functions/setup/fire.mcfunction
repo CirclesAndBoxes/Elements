@@ -15,5 +15,9 @@ scoreboard players set @s Ability1Timer 0
 scoreboard players set @s Ability2Timer 0
 scoreboard players set @s Ability3Timer 0
 
+scoreboard players set @s Ability1Cost 3
+scoreboard players set @s Ability2Cost 5
+scoreboard players set @s Ability3Cost 10
+
 scoreboard players set @s e_Mana 20
 scoreboard players set @s e_ManaTotal 20
