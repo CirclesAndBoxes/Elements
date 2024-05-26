@@ -1,0 +1,2 @@
+execute if score @s Ability10Timer matches ..0 if score @s e_Mana >= @s Ability10Cost if entity @s[tag=e.water] run function elements:ability/water/water_bolt
+advancement revoke @s only elements:use_ability10

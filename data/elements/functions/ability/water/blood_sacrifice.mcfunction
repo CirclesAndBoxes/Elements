@@ -8,6 +8,10 @@ effect give @s slowness 3 0
 effect give @s darkness 2 0
 
 execute as @a at @s run particle heart ~ ~.5 ~ 0.6 0.6 0.6 0.1 5
+playsound entity.turtle.death player @a ~ ~1 ~ 3 0.95 1
+playsound ambient.underwater.enter player @a ~ ~1 ~ 3 1 1
+playsound block.decorated_pot.shatter player @a ~ ~1 ~ 3 0.65 1
+playsound entity.warden.heartbeat player @a ~ ~1 ~ 3 1 1
 
 scoreboard players remove @s e_Mana 10
 clear @s nether_star 10
