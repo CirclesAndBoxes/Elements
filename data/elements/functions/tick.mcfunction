@@ -19,3 +19,7 @@ execute as @e[type=armor_stand,tag=e.tsunami] at @s rotated as @s run function e
 execute as @a[scores={e_Fortress=1..}] run function elements:ability/earth/stone_fortress_tick
 execute as @a[scores={e_Ignition=1..}] run function elements:ability/fire/ignition_tick
 execute as @e[type=armor_stand,tag=e.seismic] at @s rotated as @s run function elements:ability/earth/seismic_slam_tick
+execute as @a[scores={e_ArrowStorm=1..}] run function elements:ability/air/storm_tick
+execute as @a[scores={e_ArrowEscape=1..}] run function elements:ability/air/escape_tick
+
+kill @e[type=arrow,nbt={inGround:1b},tag=GroundArrow]
