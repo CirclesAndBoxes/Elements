@@ -20,6 +20,7 @@ scoreboard objectives add e_ArrowStorm dummy
 scoreboard objectives add e_ArrowEscape dummy
 
 scoreboard objectives add constants dummy
+scoreboard players set #5 constants 5
 scoreboard players set #10 constants 10
 scoreboard players set #20 constants 20
 

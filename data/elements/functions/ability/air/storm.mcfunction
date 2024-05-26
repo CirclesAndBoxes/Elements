@@ -1,4 +1,4 @@
-scoreboard players set @s e_ArrowStorm 40
+scoreboard players set @s e_ArrowStorm 50
 
 scoreboard players remove @s e_Mana 6
 clear @s nether_star 6
