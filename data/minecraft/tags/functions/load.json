@@ -1,5 +1,6 @@
 {
     "values": [
-        "elements:load"
+        "elements:load",
+        "mobwaves:load"
     ]
 }

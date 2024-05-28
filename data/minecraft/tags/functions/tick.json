@@ -1,5 +1,6 @@
 {
     "values": [
-        "elements:tick"
+        "elements:tick",
+        "mobwaves:tick"
     ]
 }
