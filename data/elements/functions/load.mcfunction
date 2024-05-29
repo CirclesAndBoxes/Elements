@@ -28,5 +28,7 @@ scoreboard players set #20 constants 20
 
 scoreboard objectives add scratch dummy
 forceload add 0 0 0 0
+kill @e[type=marker,tag=e.guider]
+summon marker 0.0 0.0 0.0 {Tags:["e.guider"]}
 
 tellraw @a {"text": "Elements Done"}
