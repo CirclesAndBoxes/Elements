@@ -19,3 +19,10 @@ fill ~-2 ~-1 ~-22 ~2 ~-1 ~30 dark_oak_planks
 # This is where the thing to defend is
 fill ~-1 ~-2 ~-24 ~1 ~-1 ~-26 gold_block
 setblock ~ ~-1 ~-25 beacon[]
+
+## This may need to be moved to another function as needed: it sets up what starts the stuff
+setblock ~ ~ ~-31 sea_lantern
+setblock ~ ~ ~-32 command_block
+execute align xyz run summon marker ~.5 ~ ~.5 {Tags:["mv.center","init"]}
+scoreboard players set @e[type=marker,tag=init,sort=nearest,limit=1] mv_waveNum 0
+tag @e[type=marker,tag=init,limit=1,sort=nearest] remove init

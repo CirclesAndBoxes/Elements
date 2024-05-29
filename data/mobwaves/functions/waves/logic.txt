@@ -1,0 +1,9 @@
+- So the logic behind a single wave is as follows:
+
+(Starts with the marker having no tag, a set mv.waveNum, and no mobs left)
+1. Player pulls lever, causing the start_next function to run, which will clear the lever and give a tag to the marker
+2. Tagged marker starts running commands every tick (Or every 10 ticks), which will decide which mobs to summon
+3. Player kills mobs. Once a certain time and no creepers left have been reached, then the ticks end (a command is run) and the lever is resummoned
+        - Ending the time also opens up the shop
+            - Villagers in the shop will be on a certain team to keep mobs from being drawn to them.
+        - starting will close up the shop.
