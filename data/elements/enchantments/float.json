@@ -1,0 +1,82 @@
+{
+    "description": {
+      "translate": "enchantment.minecraft.test"
+    },
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:explode",
+            "radius": 3.5,
+            "block_interaction": "trigger",
+            "small_particle": {
+              "type": "minecraft:block",
+              "block_state": "minecraft:amethyst_block"
+            },
+            "large_particle": {
+              "type": "minecraft:cherry_leaves"
+            },
+            "sound": "minecraft:entity.wind_charge.wind_burst",
+            "immune_blocks": "#minecraft:blocks_wind_charge_explosionsminecraft",
+            "knockback_multiplier": {
+              "type": "minecraft:lookup",
+              "values": [
+                1.2,
+                1.75,
+                2.2
+              ],
+              "fallback": {
+                "type": "minecraft:linear",
+                "base": 1.5,
+                "per_level_above_first": 0.35
+              }
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "movement": {
+                "fall_distance": {
+                  "min": 0.8
+                }
+              },
+              "flags": {
+                "is_flying": false
+              }
+            }
+          }
+        },
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": "minecraft:levitation",
+            "min_duration": 5,
+            "max_duration": 5,
+            "min_amplifier": 0,
+            "max_amplifier": 0
+          }
+        }
+      ]
+    }
+  }
+  
