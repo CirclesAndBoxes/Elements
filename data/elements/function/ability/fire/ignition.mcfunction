@@ -1,5 +1,5 @@
 # Has a knockback effect, then gives strength and speed
-effect give @s strength 8 0 
+effect give @s strength 8 0
 effect give @s speed 8 1
 effect give @s regeneration 5 0
 attribute @s generic.knockback_resistance base set 0.5

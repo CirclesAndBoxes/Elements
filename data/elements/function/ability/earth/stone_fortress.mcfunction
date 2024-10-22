@@ -1,5 +1,5 @@
 scoreboard players set @s e_Fortress 160
-effect give @s weakness 8 0 
+effect give @s weakness 8 0
 effect give @s slowness 8 0
 effect give @s resistance 8 2
 effect give @s regeneration 5 0

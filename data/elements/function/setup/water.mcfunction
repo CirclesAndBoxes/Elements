@@ -10,10 +10,10 @@ item replace entity @s armor.feet with leather_boots[custom_name='{"bold":false,
 # 2 armor toughness
 # 3 fire protection, 4 protection, 1 feather falling
 
-give @s prismarine_shard[unbreakable={},fire_resistant={},custom_data={e_slot:10},food={nutrition:10,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000},attribute_modifiers=[{type:"generic.attack_damage",name:"generic.attack_damage",amount:3,operation:"add_value",uuid:[I;-1958215100,-1163770747,-1119595834,-1295922686],slot:"mainhand"},{type:"generic.attack_speed",name:"generic.attack_speed",amount:-2.4,operation:"add_value",uuid:[I;-425241036,-687976841,-1136920513,-1189177986],slot:"mainhand"}]] 1
-give @s light_blue_dye[custom_name='{"bold":true,"italic":false,"text":"Ability 1"}',custom_data={e_slot:1},food={nutrition:1,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000}] 1
-give @s blue_dye[custom_name='{"bold":true,"italic":false,"text":"Ability 2"}',custom_data={e_slot:2},food={nutrition:2,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000}] 1
-give @s heart_of_the_sea[custom_name='{"bold":true,"italic":false,"text":"Ability 3"}',custom_data={e_slot:3},food={nutrition:3,saturation:0,is_meat:false,can_always_eat:true,eat_seconds:1000000}] 1
+give @s prismarine_shard[unbreakable={},fire_resistant={},custom_data={e_slot:10},food={nutrition:10,saturation:0,can_always_eat:true,eat_seconds:1000000},attribute_modifiers=[{type:"generic.attack_damage",id:"generic.attack_damage",amount:3,operation:"add_value",slot:"mainhand"},{type:"generic.attack_speed",id:"generic.attack_speed",amount:-2.4,operation:"add_value",slot:"mainhand"}]] 1
+give @s light_blue_dye[custom_name='{"bold":true,"italic":false,"text":"Ability 1"}',custom_data={e_slot:1},food={nutrition:1,saturation:0,can_always_eat:true,eat_seconds:1000000}] 1
+give @s blue_dye[custom_name='{"bold":true,"italic":false,"text":"Ability 2"}',custom_data={e_slot:2},food={nutrition:2,saturation:0,can_always_eat:true,eat_seconds:1000000}] 1
+give @s heart_of_the_sea[custom_name='{"bold":true,"italic":false,"text":"Ability 3"}',custom_data={e_slot:3},food={nutrition:3,saturation:0,can_always_eat:true,eat_seconds:1000000}] 1
 item replace entity @s hotbar.8 with nether_star[custom_data={e_mana:1}] 20
 tag @s add e.water
 
