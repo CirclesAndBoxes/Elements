@@ -4,6 +4,8 @@ This is a Minecraft data pack that gives players special abilities based on a se
 
 Each class has 3 abilities related to their element. The Fire class can cast fireball, Earth class can cast seismic wave, etc. Each class is also built to fulfill a certain purpose in combat: Fire is meant for melee dps, Air meant for ranged dps, Earth focuses on tanking and crowd control, and water is meant for support and healing.
 
+This data pack is up to date for 1.21.1 version of Minecraft
+
 ## Selecting a class
 
 How to select a class: 
