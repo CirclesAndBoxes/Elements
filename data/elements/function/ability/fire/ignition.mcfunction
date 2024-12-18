@@ -2,8 +2,8 @@
 effect give @s strength 8 0
 effect give @s speed 8 1
 effect give @s regeneration 5 0
-attribute @s generic.knockback_resistance base set 0.5
-attribute @s generic.attack_damage base set 2
+attribute @s knockback_resistance base set 0.5
+attribute @s attack_damage base set 2
 
 playsound entity.ender_dragon.growl player @a ~ ~ ~ 2
 particle flame ~ ~0.5 ~ 0.1 0.1 0.1 1.5 30

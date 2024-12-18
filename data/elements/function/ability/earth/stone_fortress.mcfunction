@@ -3,7 +3,7 @@ effect give @s weakness 8 0
 effect give @s slowness 8 0
 effect give @s resistance 8 2
 effect give @s regeneration 5 0
-attribute @s generic.knockback_resistance base set 0.8
+attribute @s knockback_resistance base set 0.8
 
 
 playsound minecraft:block.stone.break player @a ~ ~ ~ 2 1
